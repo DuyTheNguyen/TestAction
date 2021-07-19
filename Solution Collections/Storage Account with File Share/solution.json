@@ -1,6 +1,6 @@
 {
     "name": "Create a storage account with file share",
-    "description": "Creates an Azure storage account and file share.",
+    "description": "Creates an Azure storage account and file share..",
     "version": "2021.19.07.1",
     "icon": "fa fa-file",
     "upgradeAllowed": true
