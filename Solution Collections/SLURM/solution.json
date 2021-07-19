@@ -1,0 +1,7 @@
+{
+    "name": "SLURM on CentOS 7.1 HPC",
+    "description": "Deploys a SLURM cluster with head node and n worker nodes.",
+    "version": "2021.16.07.1",
+    "icon": "fa fa-object-group",
+    "upgradeAllowed": true
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Deploy a simple Ubuntu Linux VM 18.04-LTS",
+    "description": "This template deploy a Ubuntu Server with a few options for the VM. You can provide the VM Name, OS Version, VM size, admin username and password.",
+    "version": "2021.19.07.1",
+    "icon": "fa fa-linux",
+    "upgradeAllowed": true
+}

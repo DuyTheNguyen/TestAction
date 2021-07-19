@@ -1,0 +1,7 @@
+{
+    "name": "Create a Media Services Account with Actions",
+    "description": "This template creates an Azure Media Services Account with its Storage account.",
+    "version": "2021.19.07.1",
+    "icon": "fa fa-camera",
+    "upgradeAllowed": true
+}
