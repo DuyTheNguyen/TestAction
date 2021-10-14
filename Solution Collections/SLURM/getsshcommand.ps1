@@ -8,7 +8,7 @@ param (
     [Parameter( Mandatory = $true, ValueFromPipeline = $true)]
     [string]$publicIpAddressName,
     [Parameter( Mandatory = $true, ValueFromPipeline = $true)]
-    [string]$adminUserName
+    [string]$adminUsername
 )
 process {
     try {
@@ -35,7 +35,7 @@ process {
         $ipAddress = $publicIpAddressContent.properties.ipAddress
        
         
-        New-Object -Property @{ReturnText = "$adminUserName@$ipAddress" } -TypeName psobject
+        New-Object -Property @{ReturnText = "$adminUsername@$ipAddress" } -TypeName psobject
     }
     catch {
         Write-Host "Unable to get IP address." $_.Exception.Message
