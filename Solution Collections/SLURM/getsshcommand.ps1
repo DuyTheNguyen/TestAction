@@ -38,7 +38,7 @@ process {
         New-Object -Property @{ReturnText = "$adminUsername@$ipAddress" } -TypeName psobject
     }
     catch {
-        Write-Host "Unable to get IP address." $_.Exception.Message
+        Write-Host "Error: Unable to get IP address." $_.Exception.Message
     }
 }
 
